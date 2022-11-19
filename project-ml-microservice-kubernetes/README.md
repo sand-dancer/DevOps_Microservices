@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+# Template:
+[![<sand-dancer>](https://circleci.com/<gh>/<sand-dancer>/<DevOps_Microservices>.svg?style=svg)](<[LINK](https://app.circleci.com/pipelines/github/sand-dancer/DevOps_Microservices)>)
 
 ## Project Overview
 
