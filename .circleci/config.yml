@@ -5,13 +5,13 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/project-ml-microservice-kubernetes
+    working_directory: ~/repo
     docker:
       # Use the same Docker base as the project
       - image: python:3.7.3-stretch
 
     steps:
-      - checkout
+      - checkout project-ml-microservice-kubernetes
 
     # Download and cache dependencies
       - restore_cache:
